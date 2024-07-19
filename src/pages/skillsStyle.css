@@ -1,0 +1,47 @@
+.skill-container {
+  width: 80%;
+  margin: 40px auto 0 auto;
+}
+
+.skill-title {
+  font-size: 32px;
+  color: blue;
+}
+
+.skills {
+  width: 100%;
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.technical-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.technical-skills-imgs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.technical-img {
+  width: 80px;
+  height: 100px;
+}
+
+.soft-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.soft-skills-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
