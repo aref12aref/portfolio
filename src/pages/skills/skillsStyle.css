@@ -21,13 +21,23 @@
   flex-direction: column;
   align-items: center;
   width: 50%;
+  animation: appearr 0.5s linear;
 }
+
 .technical-skills-imgs {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+.tech-skill-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .technical-img {
   width: 80px;
   height: 100px;
@@ -38,10 +48,22 @@
   flex-direction: column;
   align-items: center;
   width: 40%;
+  animation: appearr 0.5s linear;
 }
 
 .soft-skills-text {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@keyframes appearr {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

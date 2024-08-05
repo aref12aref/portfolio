@@ -1,0 +1,145 @@
+.contact-container {
+  width: 80%;
+  margin: 40px auto 0 auto;
+}
+
+.contact-title {
+  font-size: 32px;
+  color: blue;
+}
+
+.contact-message {
+  color: white;
+  margin-bottom: 40px;
+  border: 1px solid white;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px white;
+}
+
+.contact-message2 {
+  color: black;
+  margin-bottom: 40px;
+  border: 1px solid black;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px black;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contact-inp {
+  height: 25px;
+}
+
+.contact-text-area {
+  height: 100px;
+}
+
+.contact-inp,
+.contact-text-area {
+  padding: 5px;
+  font-size: 16px;
+  color: black;
+  transition: 0.5s;
+  box-shadow: 0 0 10px 2px gray inset;
+}
+
+.contact-inp:focus,
+.contact-text-area:focus {
+  scale: 1.01;
+  padding-left: 10px;
+}
+
+.contact-submit-button {
+  cursor: pointer;
+  padding: 5px;
+  transition: 0.5s;
+  height: 35px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.contact-submit-button:hover {
+  background-color: rgb(158, 158, 255);
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.contact-methods {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-icon {
+  font-size: 50px;
+  display: block;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  transition: 0.5s;
+}
+
+.whatsapp {
+  color: green;
+}
+.whatsapp:hover {
+  color: white;
+  background-color: green;
+}
+
+.facebook {
+  color: blue;
+}
+.facebook:hover {
+  color: white;
+  background-color: blue;
+}
+
+.email {
+  color: red;
+}
+
+.email:hover {
+  color: white;
+  background-color: red;
+}
+
+.github {
+  color: white;
+}
+
+.github:hover {
+  color: black;
+  background-color: white;
+}
+
+.github2 {
+  color: black;
+}
+
+.github2:hover {
+  color: white;
+  background-color: black;
+}

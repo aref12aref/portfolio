@@ -1,0 +1,33 @@
+/* black */
+.Bbgc {
+  background-color: black;
+}
+
+.BGbgc {
+  background-color: rgba(0, 0, 0, 0.571);
+}
+
+.Bfc {
+  color: black;
+}
+
+.BGfc {
+  color: rgb(166, 166, 166);
+}
+
+/* white */
+.Wbgc {
+  background-color: white;
+}
+
+.WGbgc {
+  background-color: rgba(198, 198, 198, 0.571);
+}
+
+.Wfc {
+  color: white;
+}
+
+.WGfc {
+  color: rgb(51, 51, 51);
+}

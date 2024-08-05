@@ -1,0 +1,102 @@
+@media (max-width: 1300px) {
+  .main-home {
+    width: 90%;
+  }
+  .contact-container {
+    width: 90%;
+  }
+  .project-main {
+    width: 90%;
+  }
+  .skill-container {
+    width: 90%;
+  }
+  .about-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .header-left {
+    margin-left: 50px;
+    width: 40%;
+  }
+  .header-right {
+    margin-right: 50px;
+    width: 40%;
+  }
+  .introduction {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header-left {
+    margin-left: 10px;
+    width: 40%;
+  }
+  .header-right {
+    margin-right: 10px;
+    width: 40%;
+  }
+  .introduction-left {
+    width: 320px;
+    height: 250px;
+  }
+  .self-photo {
+    width: 250px;
+    height: 280px;
+  }
+  @keyframes selfPhotoCon {
+    from {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    to {
+      opacity: 1;
+      width: 320px;
+      height: 250px;
+    }
+  }
+  @keyframes selfPhoto {
+    from {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    to {
+      opacity: 1;
+      width: 250px;
+      height: 280px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .about-title {
+    font-size: 20px;
+  }
+  .about-text {
+    font-size: 12px;
+  }
+  .project-sidebar {
+    width: 15%;
+  }
+  .projects-container {
+    width: 80%;
+  }
+  .project-sidebar-title {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 300px) {
+  .about-title {
+    font-size: 20px;
+  }
+  .about-text {
+    font-size: 12px;
+    background-color: red;
+  }
+}
