@@ -19,4 +19,12 @@ export const techSkills = [
     name: "React JS",
     image: require("../personalFiles/react.png"),
   },
+  {
+    name: "GIT",
+    image: require("../personalFiles/git.png"),
+  },
+  {
+    name: "GIT HUB",
+    image: require("../personalFiles/github.png"),
+  },
 ];

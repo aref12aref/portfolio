@@ -10,37 +10,94 @@
 
 .skills {
   width: 100%;
+  height: 500px;
   margin: 20px auto 0 auto;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .technical-skills {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: 100%;
   animation: appearr 0.5s linear;
 }
 
 .technical-skills-imgs {
-  width: 100%;
+  height: 250px;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.slide-track {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  width: calc(250px * 10);
+  animation: scroll 40s linear infinite;
+}
+
+.slide-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 5));
+  }
 }
 
 .tech-skill-item {
+  height: 220px;
+  width: 250px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  padding: 15px;
+  perspective: 100px;
 }
 
 .technical-img {
-  width: 80px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.7s;
+}
+
+.technical-img:hover {
+  transform: translateZ(15px);
+}
+
+.technical-skills-imgs::before,
+.technical-skills-imgs::after {
+  background-image: linear-gradient(
+    to right,
+    rgba(144, 144, 144, 0.781) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 15%;
+  z-index: 2;
+}
+
+.technical-skills-imgs::before {
+  left: 0;
+  top: 0;
+}
+
+.technical-skills-imgs::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
 }
 
 .soft-skills {
@@ -48,7 +105,9 @@
   flex-direction: column;
   align-items: center;
   width: 40%;
-  animation: appearr 0.5s linear;
+  animation: softSkillsAppear linear backwards;
+  animation-timeline: view();
+  animation-range: entry 30%;
 }
 
 .soft-skills-text {
@@ -65,5 +124,16 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes softSkillsAppear {
+  from {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
 }

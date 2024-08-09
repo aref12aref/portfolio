@@ -20,7 +20,8 @@ export const data = [
   {
     projectLink: "https://aref-gaming-store.netlify.app",
     projectTitle: "aref 's gaming store",
-    projectDescription: "",
+    projectDescription: `admin for dashboard email: admin@gmail.com ,
+       password: admin123$%`,
     projectTools: "react js, react bootstrap",
   },
 ];

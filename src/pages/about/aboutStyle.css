@@ -13,7 +13,7 @@
 }
 
 .about-cont {
-  animation: appearrr linear;
+  animation: appearrr linear backwards;
   animation-timeline: view();
   animation-range: entry 0%;
 }

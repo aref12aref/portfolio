@@ -1,13 +1,14 @@
-import "./HomeStyle.css";
 import Header from "../../components/Header.js";
 import photo from "../personalFiles/self.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-regular-svg-icons";
 import Mypdf from "../personalFiles/aref.pdf";
 import { Outlet } from "react-router-dom";
-import "../../globalCss/media.css";
 import { useContext } from "react";
 import { Mode } from "../../context/modeContext.js";
+import "./HomeStyle.css";
+import "../../globalCss/media.css";
+import "../../globalCss/mode.css";
 
 export default function Home() {
   const mode = useContext(Mode);

@@ -120,7 +120,6 @@
   animation: typing 2s steps(16) forwards;
   overflow: hidden;
   text-wrap: nowrap;
-  color: white;
 }
 @keyframes typing {
   0% {
@@ -142,7 +141,7 @@
 .resume-but {
   display: block;
   width: 120px;
-  height: 20px;
+  height: 40px;
   text-decoration: none;
   text-align: center;
   padding: 5px 0;

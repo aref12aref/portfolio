@@ -31,7 +31,12 @@ export default function Skills() {
           <h3 style={{ fontSize: "24px" }} className={isBlack ? "Wfc" : "Bfc"}>
             Technical Skills
           </h3>
-          <div className="technical-skills-imgs">{showTechSkills}</div>
+          <div className="technical-skills-imgs">
+            <div className="slide-track">
+              {showTechSkills}
+              {showTechSkills}
+            </div>
+          </div>
         </div>
 
         <div className="soft-skills">
