@@ -36,8 +36,17 @@
     width: 40%;
   }
   .header-right {
-    margin-right: 10px;
+    margin-right: 0;
     width: 40%;
+  }
+  .introduction {
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .introduction-right {
+    width: 330px;
   }
   .introduction-left {
     width: 320px;
@@ -47,6 +56,7 @@
     width: 250px;
     height: 280px;
   }
+
   @keyframes selfPhotoCon {
     from {
       opacity: 0;
@@ -71,12 +81,11 @@
       height: 280px;
     }
   }
-}
 
-@media (max-width: 400px) {
   .name {
     font-size: 30px;
   }
+
   @keyframes typing {
     0% {
       width: 0;
@@ -85,7 +94,64 @@
       width: 330px;
     }
   }
+}
 
+@media (max-width: 800px) {
+  .introduction-left {
+    width: 250px;
+    height: 220px;
+  }
+  .self-photo {
+    width: 180px;
+    height: 250px;
+  }
+
+  @keyframes selfPhotoCon {
+    from {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    to {
+      opacity: 1;
+      width: 250px;
+      height: 220px;
+    }
+  }
+  @keyframes selfPhoto {
+    from {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    to {
+      opacity: 1;
+      width: 180px;
+      height: 250px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .main-home {
+    width: 95%;
+    padding: 40px 0;
+  }
+  .introduction {
+    flex-direction: column;
+    min-height: 450px;
+  }
+  .introduction-right {
+    margin-top: 10px;
+    margin-left: 80px;
+  }
+
+  .soft-skills {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
   .about-title {
     font-size: 20px;
   }

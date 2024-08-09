@@ -1,7 +1,6 @@
 import { useRef, useState } from "react";
 import { data } from "./projectData";
 import "./projectsStyle.css";
-import "../../globalCss/media.css";
 import { useContext } from "react";
 import { Mode } from "../../context/modeContext.js";
 

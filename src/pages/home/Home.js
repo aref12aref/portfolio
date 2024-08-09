@@ -6,17 +6,26 @@ import Mypdf from "../personalFiles/aref.pdf";
 import { Outlet } from "react-router-dom";
 import { useContext } from "react";
 import { Mode } from "../../context/modeContext.js";
+import { Menu } from "../../context/menuContext.js";
 import "./HomeStyle.css";
-import "../../globalCss/media.css";
-import "../../globalCss/mode.css";
+import { WindowSize } from "../../context/screenContext.js";
+import SideBar from "../../components/SideBar.js";
 
 export default function Home() {
   const mode = useContext(Mode);
   const isBlack = mode.isBlack;
 
+  const windowContext = useContext(WindowSize);
+  const windowSize = windowContext.windowSize;
+
+  const menu = useContext(Menu);
+  const isOpen = menu.isOpen;
+
   return (
     <div className="homePage">
       <Header />
+      {windowSize < 700 && isOpen ? <SideBar /> : ""}
+
       <div
         className="main-home"
         style={{

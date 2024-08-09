@@ -7,6 +7,8 @@ import Skills from "./pages/skills/Skills.js";
 import Experience from "./pages/experience/Experience.js";
 import { Mode } from "./context/modeContext.js";
 import { useContext } from "react";
+import "./globalCss/media.css";
+import "./globalCss/mode.css";
 
 export default function App() {
   const mode = useContext(Mode);

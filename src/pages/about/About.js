@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./aboutStyle.css";
 import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
-import "../../globalCss/media.css";
 import { useContext } from "react";
 import { Mode } from "../../context/modeContext";
 

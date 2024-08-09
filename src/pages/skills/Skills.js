@@ -1,7 +1,5 @@
 import "./skillsStyle.css";
 import { techSkills } from "./skillsData.js";
-import "../../globalCss/media.css";
-import "../../globalCss/mode.css";
 import { useContext } from "react";
 import { Mode } from "../../context/modeContext.js";
 

@@ -1,7 +1,5 @@
 import { experiencesData } from "./experiencesData";
 import "./experienceStyle.css";
-import "../../globalCss/media.css";
-import "../../globalCss/mode.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHandPointRight } from "@fortawesome/free-regular-svg-icons";
 import { useContext } from "react";

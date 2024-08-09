@@ -7,8 +7,6 @@ import {
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { useState } from "react";
 import "./contactStyle.css";
-import "../../globalCss/media.css";
-import "../../globalCss/mode.css";
 import { useContext } from "react";
 import { Mode } from "../../context/modeContext.js";
 
