@@ -27,4 +27,8 @@ export const techSkills = [
     name: "GIT HUB",
     image: require("../personalFiles/github.png"),
   },
+  {
+    name: "MY SQL",
+    image: require("../personalFiles/mysql.png"),
+  },
 ];

@@ -24,4 +24,10 @@ export const data = [
        password: admin123$%`,
     projectTools: "react js, react bootstrap",
   },
+  {
+    projectLink: "https://eye-optical-store.netlify.app",
+    projectTitle: "eye optical store",
+    projectDescription: ``,
+    projectTools: "react js, react bootstrap",
+  },
 ];
