@@ -23,6 +23,7 @@ export default function Experience() {
         </h3>
         <p className={isBlack ? "Wfc" : "Bfc"}>{item.position} </p>
         <p className={isBlack ? "Wfc" : "Bfc"}>{item.type}</p>
+        <p className={isBlack ? "Wfc" : "Bfc"}>{item.projects}</p>
       </div>
     );
   });
