@@ -17,7 +17,11 @@ export const techSkills = [
   },
   {
     name: "React JS",
-    image: require("../personalFiles/react.png"),
+    image: require("../personalFiles/react js.png"),
+  },
+  {
+    name: "Vue JS",
+    image: require("../personalFiles/Vue js.png"),
   },
   {
     name: "GIT",
@@ -30,5 +34,9 @@ export const techSkills = [
   {
     name: "MY SQL",
     image: require("../personalFiles/mysql.png"),
+  },
+  {
+    name: "node JS",
+    image: require("../personalFiles/node js.png"),
   },
 ];
